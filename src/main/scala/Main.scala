@@ -16,12 +16,9 @@ object Main {
     /*
     Exercise 2
       */
-
-
-
-
-
-
+    def factorial(n: Int) : Int = {
+      if(n == 0) 1 else n*factorial(pred(n))
+    }
 
 
   }
