@@ -20,6 +20,13 @@ object Main {
       if(n == 0) 1 else n*factorial(pred(n))
     }
 
+    /*
+    Exercise 3
+      */
+    def sum(n: Int): Int = {
+      if (n == 0) n else n + sum(pred(n))
+    }
+
 
   }
 
